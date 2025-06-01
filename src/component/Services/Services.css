@@ -1,0 +1,102 @@
+.services{
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+}
+.services .row{
+    padding: 0;
+    margin: 50px 0px 80px 50px;
+}
+.services .service{
+width: 30%;
+margin: 10px 0 20px 10px;
+padding: 25px;
+box-shadow: 5px 5px 5px 5px rgb(174, 174, 197);
+border-radius: 15px;
+}
+.services .service span{
+    background-color: rgb(247, 249, 252);
+    width: 70px;
+    height: 60px;
+    border: 1px solid blueviolet;
+    border-radius: 6%;
+    margin: 10px auto;
+
+
+}
+.services .service h3{
+    color: var(--main-color);
+    margin: 10px 0px;
+}
+.services .service svg{
+    margin: 10px ;
+    width: 100%;
+    font-size: 40px;
+}
+/*media*/
+@media only screen and (max-width: 768px){
+    .services .service{
+        width: 45% !important;
+        margin: 10px !important;
+    }
+}
+@media only screen and (max-width: 547px){
+    .services .service{
+        /* background-color: blue; */
+        width: 100% !important;
+        margin: 10px !important;
+    }
+    .serviceTow .box-one{
+        background-color: blue;
+        width: 95% !important;
+        margin: 10px !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .serviceTow .box-one{
+        width: 45% !important;
+        /* margin: 10px !important; */
+    }
+}
+/*  */
+/*media*/
+/*services tow*/
+.serviceTow{
+    background-color: rgb(210, 210, 230);
+    padding: 0;
+    margin: 0;
+}
+.serviceTow .row{
+    padding: 70px;
+    margin: 0;
+    
+}
+@media only screen and (max-width: 768px){
+    .serviceTow .box-one{
+        width: 100% !important;
+        text-align: center !important;
+    } 
+ 
+}
+.serviceTow .box-one{
+    width: 23%;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(117, 117, 207);
+    box-shadow: 5px 5px 5px 5px rgb(174, 174, 197);
+    border-radius: 8px;
+}
+.serviceTow .box-one:hover{
+    background: #f5f0f0;
+}
+.serviceTow .box-one h2{
+    color: var(--orang-color) !important;
+    margin: 40px 0 30px;
+    font-weight: bold;
+}
+.serviceTow .box-one h5{
+color: var(--main-color) !important;
+}
+.serviceTow .box-one p{
+    font-size: 15px;
+}

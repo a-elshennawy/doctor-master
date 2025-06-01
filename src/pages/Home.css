@@ -1,0 +1,335 @@
+header{
+    margin-top: 0px !important;
+
+}
+header .row{
+    margin: 50px 0px;
+    align-items: center;
+    position: relative;
+}
+header .row h5{
+    color: var(--btn-color);
+    font-size: 20px ;
+    margin: 40px 0px 10px 0px;
+
+}
+header h2{
+    color: var(--main-color);
+    font-size: 40px;
+    margin: 30px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+header button{
+    background-color: var(--orang-color);
+    width: 160px;
+    height: 50px;
+    margin-top: 50px;
+    border:1px solid var(--orang-color);
+    border-radius: 4px;
+    transition: .2s ease;
+}
+header button a{
+    color: #fff;
+    font-size: 17px;
+    transition: .2s ease;
+}
+header button:hover a{
+     color: #fff;
+}
+header button:hover{
+    opacity: .6;
+}
+header .row .plus{
+width: 80px;
+display: block;
+position: absolute;
+left: 30%;
+bottom: 0px;
+}
+@media only screen and (max-width : 992px){
+    header .row .plus{
+       width: 22% !important;
+       top:35%;
+       margin-left: 100px;
+    }
+ 
+  }
+header img{
+    max-width: 100%;
+    width: 430px;
+    height: auto;
+    animation: mover 3s infinite alternate;
+    transition: .3s ease all;
+}
+@keyframes mover{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+       
+    
+}
+header .header-box{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+header svg{
+    font-size: 80px;
+    color: var(--btn-color);
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    animation: mover 3s infinite alternate;
+   
+}
+/* HomeTow */
+.homeTow{
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff ;
+}
+@media only  screen and (min-width: 992px){
+    .homeTow {
+        background-color: #fff;
+    }
+    .homeTow .docOne img{
+        width: 100% !important;
+        margin: 10%;
+        height: 200px;
+        border-radius: 0px 40px 40px;
+        cursor: pointer;
+    }
+    .homeTow .docTow img{
+        max-width: 100%;
+        height: 250px;
+        border-radius:  40px 0px 40px 40px;
+        cursor: pointer;
+       
+    }
+    .homeTow .docThree img{
+        max-width: 100%;
+        margin: 50px 130px ;
+        height: 180px;
+        width: 130px;
+        border-radius:  40px 40px 40px 0px;
+        cursor: pointer;
+        margin-top: 70px !important;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width:992px){/* large*/
+    .aboutUsTow h4{
+        text-align: center !important;
+    }
+    .sectionOne .docOne{
+        padding-left: 10px !important;
+        width: 70%;
+    }
+    .sectionOne .docOne img{
+        margin-right: 0px !important;
+        width: 100% !important;
+        
+    }
+    .sectionOne .docTow{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .sectionOne .docTow img{
+        width: 90% !important;
+        margin: 10%;
+    }
+}
+@media only screen and (min-width : 578px) and (max-width: 768px){/* media small */
+    
+    .sectionOne {
+        width: 100%;
+        margin: 30px;
+        
+    }
+    .sectionOne .docOne img{
+     width: 70%;
+     margin: 9% !important;
+     border-radius: 5px !important;
+    }
+    .sectionOne .docTow img{
+        width: 70% !important;
+        margin: 10% !important;
+        border-radius: 5px !important;
+    }
+    .sectionOne .docThree img{
+        width: 70% !important;
+        margin: 10% !important;
+        border-radius: 5px !important;
+    }
+    .homeTow .Experience{
+        width: 70% !important;
+        margin: 10%;
+    }
+
+    .homeTow .Experience span{
+        display: none;
+    }
+
+}
+@media only screen and (max-width : 576px){/* media small mx*/
+    .sectionOne {
+        width: 100%;
+        margin: 30px;
+        
+    }
+    .homeTow .Experience span{
+        display: none;
+    }
+    .homeTow .docOne img{
+        width: 70%;
+        margin: 10% !important;
+        height: auto;
+        border-radius: 5px !important;
+    }
+    .docTow img{
+        width: 70%;
+        margin: 10%;
+        height: auto;
+        border:none;
+        border-radius: 5px !important;
+
+    }
+    .docThree img{
+        width: 70% !important;
+        margin: 10% !important;
+        border-radius: 5px !important;
+        height: auto;
+       
+    }
+    .homeTow .Experience{
+        width: 70% !important;
+        margin: 10% !important;
+        height: auto !important
+        ;
+
+    }
+
+
+}
+.sectionOne{
+    /* min-width: 100%; */
+    padding: 100px;
+    max-width: 100%;
+    
+}
+ .homeTow .docOne img{
+    /* max-width: 100%; */
+    margin: 30px 0px 0px 80px;
+    height: 200px;
+    border-radius: 0px 40px 40px;
+    cursor: pointer;
+}
+.homeTow .docTow img{
+    max-width: 100%;
+    height: 250px;
+    border-radius:  40px 0px 40px 40px;
+    cursor: pointer;
+   
+}
+.homeTow .docThree img{
+    max-width: 100%;
+    margin: 50px 130px ;
+    height: 180px;
+    width: 130px;
+    border-radius:  40px 40px 40px 0px;
+    cursor: pointer;
+}
+
+.homeTow .Experience{
+    border: blue solid 2px;
+
+     padding-top: 10px; 
+        max-width: 100%;
+        margin-top: 30px  ;
+        height: 200px;
+        width: 200px;
+        border-radius:  40px 40px 0px 40px;
+        text-align: center;
+       background-color: rgb(207, 207, 241);
+       color: var(--main-color);
+       position: relative;
+       cursor: pointer;
+   
+} 
+.homeTow .Experience span{
+    position: absolute;
+    top: -50px;
+    left: -60px;
+    rotate: 10deg;
+    height: 60px;
+    width: 60px;
+    background-color: var(--orang-color);
+    border-radius: 10px;
+} 
+.homeTow .Experience h1{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.aboutUsTow{
+    max-width: 100%;
+   padding-top: 100px;
+    background-color: #fff;
+    padding: 80px;
+}
+
+.aboutUsTow h4{
+    color: var(--orang-color);
+    font-size: 20px;
+    background-color: rgb(223, 204, 170);
+    width: fit-content;
+    opacity: .5;
+    margin: 30px 0px 30px 0px;
+}
+.aboutUsTow h1{
+    color: var(--main-color);
+}
+.aboutUsTow p{
+
+    margin: 10px;
+}
+@media only screen and (max-width : 768px){
+    .aboutUsTow .icon{
+        width: 95% !important;
+        margin: 5% !important;   
+    }  
+    .aboutUsTow h4{
+        margin: 30px auto;
+        font-size: 40px;
+    }
+}
+.aboutUsTow .icon{
+    margin-top: 30px;
+    /* padding: 10px; */
+    float: left;
+    border: 1px solid rgb(6, 209, 216);
+    width: 35%;
+    margin: 5%;
+       
+}
+
+.aboutUsTow .icon li{
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center !important; 
+    padding: 10px 0 ;
+    
+    
+}
+ .aboutUsTow .icon li svg{
+    font-size: 20px;
+    /* padding: 8px; */
+    width: 15%;
+   border-radius: 0 24px 25px 0;
+   margin-right: 10px; 
+   
+} 
+

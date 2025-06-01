@@ -1,0 +1,145 @@
+.contact-us{
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+form{
+    background-color: #fff;
+    width: 100%;
+    max-width: 100%;
+    padding: 15px ;
+    height: auto;
+    box-sizing: border-box;
+}
+form input,option{
+    width: 100%;
+    height: 50p;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 4px;
+    color: #333;
+    font-size: 17px;
+    outline: none !important;
+}
+form input:hover{
+border: 1px solid #565acf;
+translate: .2s ease-in-out ;
+}
+form button{
+    width: 100%;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+.iconContact{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    gap: 10px;
+}
+/*Contact tow*/
+.contact-Tow {
+    padding: 0px;
+    margin: 0px; 
+    background-color: #FFF;
+}
+.sid{
+    max-width: 100%;
+    padding: 0px;
+    border:2px;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../assets/image/banner.jpg);
+    background-size: cover;
+    background-color: #565acf;
+    opacity: .6;
+    color: #fff;
+}
+.sid .overlay{
+    background-color: #565acf;
+    opacity: .9;
+    max-width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+.colOne{
+    /* background-color: #333; */
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border: #cf568e solid 1PX;
+    border-radius: 5px;
+}
+.colOne:hover{
+    box-shadow: 2px 2px 2px 2px #cac8c8 ;
+    transition: .3s ease all;
+}
+.colOne li svg{
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.colOne h1{
+font-size: 20px;
+color: var(--main-color);
+}
+.colOne h5{
+    font-size:15px;
+     
+}
+/* col tow */
+.colTow{
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border: #565acf solid 1PX;
+    border-radius: 5px;
+}
+.colTow:hover{
+    box-shadow: 2px 2px 2px 2px #cac8c8 ;
+    transition: .3s ease all;
+}
+.colTow li svg{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.colTow h1{
+    font-size: 20px;
+    color: var(--main-color);
+    }
+.colTow h5{
+        font-size:15px;
+         
+    }
+
+/* colThree */
+.colThree{
+    /* background-color: #633; */
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border: var(--orang-color) solid 1PX;
+    border-radius: 5px;
+}
+.colThree:hover{
+    box-shadow: 2px 2px 2px 2px #cac8c8 ;
+    transition: .3s ease all;
+}
+.colThree li svg{
+    font-size: 40px;
+    margin-bottom: 20px
+}
+
+.colThree h1{
+    font-size: 20px;
+    color: var(--main-color);
+    
+}
+.colThree h5{
+    font-size:15px;
+     
+}

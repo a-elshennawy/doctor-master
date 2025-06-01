@@ -1,0 +1,63 @@
+.sectionBlog{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.sectionBlog .boxDoc{
+    width: 30%;
+    margin: 15px ;
+    border: 2px solid #ddd;
+    border-radius: 1px ;
+}
+.sectionBlog .boxDoc img{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.sectionBlog .boxDoc .doctor {
+    border-radius: 50%;
+    width: 35px;
+    margin:10px 10px 10px -25px !important;
+    align-items: center;
+}
+.sectionBlog .post-info .post-title a{
+ font-size: 20px;
+ float: left;
+ margin: 15px 0 15px;
+}
+.sectionBlog .post-meta .date{
+    padding: 15px;
+}
+.sectionBlog .author{
+    float: left;
+    margin-right: 10px;
+}
+
+.sectionBlog .post-meta li:last-child{
+    color: var(--orang-color);
+}
+.sectionBlog .post-info svg:first-child{
+    font-size: 30px;
+    align-items: center;
+}
+.sectionBlog .post-info svg{
+    font-size: 15px !important;
+    margin-left: 15px;
+    
+}
+.sectionBlog .post-info a:last-child{
+    margin: 20px 0;
+}
+/*media*/
+@media only screen and (max-width: 992px){
+    .sectionBlog .boxDoc{
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .sectionBlog .boxDoc{
+        width: 100%;
+    }
+}
+/*media*/

@@ -1,0 +1,113 @@
+.work {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.rowWork {
+    position: relative;
+    padding-left: 160px;
+}
+
+.headertext {
+    text-align: center;
+}
+
+.headertext p {
+    background: #ffffffa6;
+    color: var(--orang-color);
+    width: fit-content;
+    display: inline;
+    margin-top: 20px !important;
+    font-weight: bold;
+}
+
+.headertext h1 {
+    color: var(--btn-color);
+    margin: 50px 0;
+
+}
+
+.boxWork {
+    align-items: center;
+    border-radius: 10px;
+    width: 30% !important;
+    padding: 30px 20px;
+    margin: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+}
+
+.boxWork::before {
+    content: '';
+    height: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    background-color: var(--orang-color);
+    transition: 1s;
+    /* z-index: -1; */
+}
+
+.boxWork:hover::before {
+    height: 10%;
+    border-radius: 10px;
+}
+
+
+.position {
+    margin-bottom: 30px;
+    margin-top: -30px !important;
+    background-color: var(--orang-color);
+    color: #fff;
+}
+
+.boxWork .colorChang {
+    color: #fff;
+}
+
+.boxWork h1 {
+    font-size: 100px;
+    color: var(--orang-color);
+    opacity: .8;
+}
+
+.boxWork h2 {
+    color: var(--orang-color);
+    margin: 10px 0;
+}
+
+.boxWork a {
+    margin: 40px 0;
+    padding: 10px;
+}
+
+/* start media*/
+@media only screen and (max-width: 768px) {
+    .work .headertext p {
+        text-align: center !important;
+    }
+
+    .rowWork .boxWork {
+        width: 100% !important;
+        margin-left: -70px !important;
+    }
+
+    .rowWork .position {
+        margin-top: 40px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .rowWork .boxWork {
+        width: 100% !important;
+        margin-left: -70px !important;
+    }
+
+    .rowWork .position {
+        margin-top: 40px !important;
+    }
+}
+
+/* end media*/

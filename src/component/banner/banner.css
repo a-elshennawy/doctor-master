@@ -1,0 +1,39 @@
+.banner{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(135deg, #8bc4ec 0%, #95cbe2 100%);
+}
+.textContact{
+    max-width: 100%;
+    text-align: center;
+    margin: 100px 50px;
+    font-size: 15px;
+    background-color: aliceblue;
+    padding: 50px 0px;
+    background-color: #8bc4ec;
+    
+    
+}
+.bannerContact{
+    font-size: 60px;
+    margin: 30px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.textContact .iconContact{
+    background-color: var(--btn-color);
+    color: #fff;
+    width: fit-content;
+    align-items: center;
+    margin: 10px auto;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+.textContact .iconContact:hover{
+    background-color: rgb(126, 126, 207);
+    cursor: pointer;
+}
+.textContact .color{
+    color: #fff;
+    margin-right: 15px;
+}

@@ -1,0 +1,89 @@
+.rowBook{
+    background-color: rgba(173, 131, 212, 0.384);
+    border-radius: 10px;
+}
+.Books{
+    padding: 50px 0px;
+    margin: 0px !important;
+    margin-top: 50px !important;
+    background-color: #fff;
+}
+.Books h2{
+    margin-bottom: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.imgesBooks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.bok{
+    position: relative;
+}
+.imgesBooks .imgOne{
+position: absolute;
+top: 10px;
+left: 0;
+width: 500px;
+}
+
+.bok .imgTow{
+    width: 200px;
+    position:absolute;
+    bottom: 10px;
+    right: 100px !important;
+}
+/* start media */
+@media only screen and (min-width: 1199px){
+    .bok .imgTow{
+        width: 200px;
+        position:absolute;
+        bottom: 20px;
+        right: 0px;
+    }
+}
+@media only screen and (max-width:1198px){
+
+    .bok .imgTow{
+        width: 200px;
+        position:absolute;
+        bottom: 20px;
+        right: 0;
+    }
+    .bok .imgOne{
+        width: 430px;
+        position:absolute;
+        top: 68px;
+        left: -30px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width:992px){
+
+    .bok .imgTow{
+        width: 100px;
+        position:absolute;
+        bottom: 5px;
+        right: 0;
+        height: 300px;
+    }
+    .bok .imgOne{
+        width: 400px;
+        position:absolute;
+        top: 110px;
+        left: -30px;
+    }
+}
+@media only screen and (max-width:768px){
+    .bok{
+        display: none;
+    }
+    .booksOne{
+        width: 100%;
+    }
+}
+
+/* end media */
