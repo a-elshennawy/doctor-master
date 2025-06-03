@@ -5,6 +5,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
 
-  // the base option should start with a "/"
+  //  as long as hosting we need to make it only "appType./"
   base: "./",
 });
