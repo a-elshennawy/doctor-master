@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [react()],
 
   // the base option should start with a "/"
-  base: "/doctor/",
+  base: "./",
 });
